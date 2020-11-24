@@ -18,6 +18,9 @@ public class Client {
     private String firstName;
     private String lastName;
 
+    private String username;
+    private String password;
+
     public String getId() {
         return id;
     }
@@ -40,5 +43,13 @@ public class Client {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
